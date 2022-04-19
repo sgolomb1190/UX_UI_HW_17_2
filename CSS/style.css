@@ -1,17 +1,24 @@
+#container {
+    width: auto;
+    margin: 2%;
+}
+
 body {
     margin: 20px;
     text-align: center;
     padding: 20px;
-    background-color: white;
+    background-color:white;
 }
 
 .navigation {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 2%
     font-size: 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;}
+    font-weight: bold;
+}
 
 .inline-block, ul, li {
     display: flex;
@@ -25,9 +32,10 @@ li {
 }
 
 .logo {
+    display: flex;
+    justify-content: flex-start;
     height: 100px;
     padding: 0px;
-
 
 }
 
@@ -35,22 +43,26 @@ img {
     float: right; 
     margin: 5px;
     padding: 15px 15px 15px 15px;
+
 }
 
 p {
+    display: flex;
     text-align: left;
     font-size: 13px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Sanchez, serif;
+    flex-wrap: nowrap;
     padding: 24px;
 }
 
 button {
     display: flex;
     margin: 20px;
-    padding: 10px;
+    padding: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    background-color: hsl(331, 19%, 45%);
+    border-radius: 20pt;
+    background-color: #005D6C;
     color: white;
     border: white;
 
@@ -62,9 +74,8 @@ footer{
 
 footer, ul, li {
     display: flex;
-    flex-direction: center;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
 }
@@ -73,3 +84,5 @@ a {
     text-decoration: none;
     color: white;
 }
+
+/* font-family: 'Sanchez', serif;
