@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2%
+    margin: 10%;
     font-size: 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
@@ -61,7 +61,6 @@ button {
     padding: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    border-radius: 20pt;
     background-color: #005D6C;
     color: white;
     border: white;
