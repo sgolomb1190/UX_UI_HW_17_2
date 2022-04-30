@@ -12,31 +12,35 @@ body {
 
 header {
     display: flex;
+    background-color: white;
+    width: 100%;
+    margin: 0%;
+}
+
+nav {
+    display: flex;
     justify-content: space-between;
+    background-color: white;
     align-items: center;
-    font-size: 12px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-}
-
-.inline-block, ul, li {
-    display: flex;
-    justify-content: flex-end;
-}
-
-li {
-    display: flex;
-    justify-content: flex-end;
-    padding: 25%;
-}
-
-.logo {
-    display: flex;
-    justify-content: flex-start;
-    height: 100px;
     margin: 0px;
-    padding: 0px;
+    width: 100%;
+}
 
+nav a {
+    text-decoration: none;
+    font-family: 'Noto-sans', sans-serif;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    align-content: flex-end;
+}
+
+.work, .about {
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px;
 }
 
 img {
