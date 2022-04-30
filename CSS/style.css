@@ -10,11 +10,10 @@ body {
     background-color:white;
 }
 
-.navigation {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10%;
     font-size: 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
@@ -35,6 +34,7 @@ li {
     display: flex;
     justify-content: flex-start;
     height: 100px;
+    margin: 0px;
     padding: 0px;
 
 }
@@ -71,17 +71,22 @@ footer{
     background-color: hsl(331, 19%, 45%); 
 }
 
-footer, ul, li {
+footer {
     display: flex;
-    justify-content: flex-start;
-    align-items: normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
+    justify-content: space-evenly;
+    padding: 5%;
+    margin: 0%;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    background-color: hsl(331, 19%, 45%);
+    font-family: 'Noto Sans', sans-serif;
 }
 
-a {
-    text-decoration: none;
+footer, .contact {
     color: white;
+    text-decoration: none;
+    font-size: 12px;
 }
 
 /* font-family: 'Sanchez', serif;
